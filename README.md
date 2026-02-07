@@ -23,6 +23,7 @@ A professional,scalable,maintainable and CI-ready Playwright automation framewor
 
 **Design decisions:**
 POM improves maintainability and reduces duplicate code
+
 <pre>  Project Structure
   
 ├──.github\workflows    # GitHub Actions CI/CD workflows
@@ -51,15 +52,15 @@ npm init playwright@latest
 **Execution**
 A. Run test suite with HTML report
 Execute the test suite using the following NPM script.
-This will run all tests and generate the Playwright HTML report.
+This will run all tests inside the tests folder
 
 **npm run test**
-After execution, open the HTML report using:
+After execution, open the HTML report using following command :
 **npx playwright show-report**
 
 B. Run test suite with Allure report
 Execute the test suite using the following NPM script.
-This will run all tests and generate the Allure report.
+This will run all tests inside the tests folder and generate the Allure report.
 
 **npm run test:allure**
 After execution, the Allure report will be generated and will open automatically.
@@ -67,7 +68,7 @@ After execution, the Allure report will be generated and will open automatically
 **Reporting**
 1.Allure report after every test run (if executed via Allure command mentioned above)
 2.HTML report after every test run (if executed via HTML command mentioned above)
-2.Screenshots/videos captured on every test execution.
+3.Screenshots/videos captured on every test execution.
 
 **Skills Demonstrated**
 Playwright test automation
