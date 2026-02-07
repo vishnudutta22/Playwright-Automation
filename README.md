@@ -12,29 +12,33 @@ A professional,scalable,maintainable and CI-ready Playwright automation framewor
 **Framework Architecture**
 
 **Page Objects** (Pages/) – All UI interactions encapsulated in classes
+
 **Tests** (tests/) – Test scenarios using Playwright test runner
+
 **Test Data** (TestData/) – Centralized input data for tests
+
 **Playwright Config** (playwright.config.js) – Browser settings, retries, reporters
-**Reports** (HTML report/allure-report) – Captures HTML reports, Allure reports, screenshots, videos.
+
+**Reports** (HTML report/Allure-report) – Captures HTML reports, Allure reports, screenshots, videos.
 
 **Design decisions:**
 POM improves maintainability and reduces duplicate code
-<pre>Project Structure 
+<pre>  Project Structure
   
 ├──.github\workflows    # GitHub Actions CI/CD workflows
 ├──allure-report        # Generated Allure test reports after test execution
 ├──Pages                # Page Object Model (POM) classes for different pages and different methods
 ├──TestData             # Test data files (JSON Format)
 ├──tests                # Playwright test scripts
-├──.gitignore            # Git ignore files
+├──.gitignore           # Git ignore files
 ├──package-lock.json 
 ├──package.json         # Node.js project dependencies and scripts
 └──playwright.config.js # Playwright configuration (browsers, reporters, retries)
   
 <pre></pre>
 **Getting Started(Ensure you have the following installed)**
-1. Node.js (v16+)
-2. npm (comes with Node)
+1. Node.js 
+2. npm 
 3. A modern code editor (VS Code recommended)
    
 **Setup**
@@ -74,6 +78,6 @@ Test reporting
 CI/CD workflow readiness
 Git & GitHub workflow
 
-📝 If you find my work interesting please don't forget to give a Star ⭐ & Follow me 
+**⭐** Star this repo & 👥 Follow me if you find this Repo. useful!
 
 
